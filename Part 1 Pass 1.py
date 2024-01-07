@@ -2,7 +2,7 @@ import pandas as pd
 
 # Part 1: Explore the Data
 # Import the data from the CSV file from resources folder
-data = pd.read_csv('client_dataset.csv')
+data = pd.read_csv('Resources/client_dataset.csv')
 
 data.head()
 
@@ -31,6 +31,10 @@ print()
 
 # check data for unusual patterns or outliers.
 print(data['qty'].describe())
+print()
+
+# Print outliers for review
+print(data[data['qty'] > 20000])
 print()
 
 
