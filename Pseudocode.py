@@ -2,7 +2,7 @@ import pandas as pd
 
 # Part 1: Explore the Data
 # Import the data from the CSV file
-df = pd.read_csv('Resources/client_dataset.csv')
+df = pd.read_csv('client_dataset.csv')
 
 df.head()
 
@@ -52,6 +52,11 @@ df['line_profit'] = df['total_price'] - df['line_cost']
 
 # Part 3: Confirm Your Work
 # Check if the calculated total prices match the given Order IDs
+order_ids = df['order_id_column'].unique()
+for order_id in order_ids:
+    total_price = df[df['order_id_column'] == order_id]['total_price'].sum()
+    print("Order ID: {} | Total Price: {}".format(order_id, total_price))
+
 
 # Part 4: Summarize and Analyze
 # Calculate total revenue from each of the top 5 clients
