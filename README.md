@@ -5,7 +5,7 @@
 In the `pandas-challenge-1` project, we dive into the world of data analysis using Python's Pandas library. This project is part of the UNC AI Bootcamp curriculum, designed to provide hands-on experience in practical data analysis. Our focus is on a dataset from a fictional e-commerce company, where we explore, clean, process, and extract valuable insights to answer real-world business questions. The challenge encompasses tasks like identifying top customers, determining popular product categories, calculating profits, and more. By the end of this project, you'll gain essential skills in data manipulation and analysis, preparing you for complex data challenges in your future career.
 
 ### Files
-- **Module 4 Challenge Files**: Download the necessary files [here](#link-to-files).
+- **Module 4 Challenge Files**: Download the necessary files [here](#https://github.com/Katadhin/pandas-challenge-1/blob/main/client_dataset.csv).
 
 ### Getting Started
 Before diving into the analysis, follow these steps:
